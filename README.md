@@ -1,3 +1,3 @@
-# Skynet SDK
+# Public Portals SDK
 
-An SDK for integrating Skynet into Node.js applications
+An SDK for integrating Public Portals into Node.js applications
