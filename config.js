@@ -2,14 +2,14 @@
 
 const config = {
   DefaultUploadOptions: {
-    portalUrl: "https://siasky.net",
-    portalUploadPath: "/skynet/skyfile",
+    portalUrl: "https://scp.techandsupply.ca",
+    portalUploadPath: "/pubaccess/pubfile",
     portalFileFieldname: "file",
     portalDirectoryFileFieldname: "files[]",
     customFilename: "",
   },
   DefaultDownloadOptions: {
-    portalUrl: "https://siasky.net",
+    portalUrl: "https://scp.techandsupply.ca",
   },
 };
 
