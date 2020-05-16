@@ -3,10 +3,10 @@
 const axios = require("axios");
 const fs = require("fs");
 
-const { trimTrailingSlash, trimSiaPrefix } = require("./utils");
+const { trimTrailingSlash, trimScPrimePrefix } = require("./utils");
 
-function DownloadFile(path, skylink, opts) {
-  const url = `${trimTrailingSlash(opts.portalUrl)}/${trimSiaPrefix(skylink)}`;
+function DownloadFile(path, publink, opts) {
+  const url = `${trimTrailingSlash(opts.portalUrl)}/${trimScPrimePrefix(publink)}`;
 
   const writer = fs.createWriteStream(path);
 
