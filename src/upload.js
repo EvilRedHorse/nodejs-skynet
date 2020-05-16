@@ -18,7 +18,7 @@ function UploadFile(path, opts) {
     axios
       .post(url, formData, { headers: formData.getHeaders() })
       .then((resp) => {
-        resolve(`sia://${resp.data.skylink}`);
+        resolve(`scp://${resp.data.publink}`);
       })
       .catch((error) => {
         reject(error);
@@ -45,7 +45,7 @@ function UploadDirectory(path, opts) {
     axios
       .post(url, formData, { headers: formData.getHeaders() })
       .then((resp) => {
-        resolve(`sia://${resp.data.skylink}`);
+        resolve(`scp://${resp.data.publink}`);
       })
       .catch((error) => {
         reject(error);
