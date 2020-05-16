@@ -1,7 +1,7 @@
 {
-  "name": "@nebulous/skynet",
-  "version": "1.0.1",
-  "description": "Skynet SDK",
+  "name": "@scpcorp/publicportals",
+  "version": "1.0.0",
+  "description": "Public Portals SDK",
   "main": "index.js",
   "scripts": {
     "format": "prettier --write ."
@@ -19,7 +19,7 @@
   "keywords": [
     "Decentralised",
     "Cloud Storage",
-    "Sia"
+    "ScPrime"
   ],
   "author": "Peter-Jan Brone",
   "contributors": [
@@ -27,7 +27,7 @@
       "name": "Kunal Kamble",
       "email": "kunal@kunalkamble.com",
       "url": "https://kunalkamble.com"
-    }
+    },
   ],
   "license": "MIT",
   "dependencies": {
