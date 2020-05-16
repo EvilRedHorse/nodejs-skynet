@@ -20,12 +20,12 @@ function walkDirectory(path, out) {
   return files;
 }
 
-function trimSiaPrefix(str) {
-  return str.replace("sia://", "");
+function trimScPrimePrefix(str) {
+  return str.replace("scp://", "");
 }
 
 function trimTrailingSlash(str) {
   return str.replace(/\/$/, "");
 }
 
-module.exports = { walkDirectory, trimSiaPrefix, trimTrailingSlash };
+module.exports = { walkDirectory, trimScPrimePrefix, trimTrailingSlash };
