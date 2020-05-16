@@ -28,6 +28,11 @@
       "email": "kunal@kunalkamble.com",
       "url": "https://kunalkamble.com"
     },
+    {
+      "name": "EvilRedHorse",
+      "email": "evilredhorse@gmail.com",
+      "url": "https://scp.techandsupply.ca"
+    }
   ],
   "license": "MIT",
   "dependencies": {
